@@ -1,0 +1,29 @@
+Git Commands
+
+1. git diff: Show file differences not yet staged.
+2. git commit -a -m "commit message": Commit all tracked
+changes with a message
+3. git status: Show the state of your working directory,
+4. git add file_path:Add file(s) to the staging area.
+5. git checkout -b branch_name: Create and switch to a new
+branch.
+6. git checkout branch_name: Switch to an existing branch,
+7. git commit --amend:Modify the last commit.
+8. git push origin branch_name: Push a branch to a remote
+9. git pull: Fetch and merge remote changes.
+10. git rebase -i/--continue/--abort/--skip: Rebase interactively, rewrite commit history,
+11.git clone: Create a local copy of a remote repo,
+12.git merge: Merge branches together.
+13. git log -stat: Show commit logs with stats.
+14. git stash: Stash changes for later.
+15. git stash pop: Apply and remove stashed changes,
+16. git show commit_id: Show details about a commit.
+17.git reset HEAD~1: Undo the last commit, preserving
+changes locally.
+18. git apply patch_file_name: Apply changes from a patch file.
+19. git branch -D branch_name: Delete a branch forcefully.
+20. git reset: Undo commits by moving branch reference.
+21. git branch: Lists branches,
+22. git add . : To stage all changes in your working directory
+23. git commit -m "Your commit message": To commit your staged changes
+24. git log --oneline: shows short commit history
